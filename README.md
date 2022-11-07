@@ -30,21 +30,23 @@ This is a walkthrough of building a Login Form using HTML and CSS.
 ```
 <h1>Login Page</h1><br>    
     <div class="login">    
-    <form id="login" method="get" action="login.php">    
+    <form id="login">    
         <label><b>User Name     
         </b>    
         </label>    
-        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <input type="text" name="userName" id="userName" placeholder="Username">    
         <br><br>    
         <label><b>Password     
         </b>    
         </label>    
-        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <input type="Password" name="password" id="password" placeholder="Password">    
         <br><br>        
           
     </form>     
  ```
  - To submit the form, we use the input field of ```button``` type. </br>
- ```<input type="button" name="log" id="log" value="Log In Here">```
+ ```<input type="button" name="submit-btn" id="submit-btn" value="Submit">```
   
+- The login page will look like this. 
+<img width="1316" alt="Screenshot 2022-11-07 at 4 18 18 PM" src="https://user-images.githubusercontent.com/66726759/200285867-fcba391f-6235-46db-bf0c-5dcc517b1a51.png">
 
