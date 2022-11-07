@@ -13,7 +13,7 @@ This is a walkthrough of building a Login Form using HTML and CSS.
 
 ## 3. "Building the Login Page using HTML":
 
-- ## Login Page Heading 
+👉 ## Login Page Heading 
 - At first we give a heading to our login page using ```<h1>``` tag. </br>
 ```<h1> Login page </h1>``` 
 - Next, to create a section in the html page we use the ```<div>``` tag which has a ```class``` attribute  with value ```"login"```.</br>
@@ -25,6 +25,7 @@ This is a walkthrough of building a Login Form using HTML and CSS.
     </form>     
 </div>  
 ```
+👉 ## Building the Form
 - Then we use the ```<label>``` tag to label the input fields.
 - ```<input>``` tag helps us to create input fields for the username and password. </br>
 ```
