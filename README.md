@@ -132,4 +132,5 @@ label{
   
 }  
 ```
- ## So in the end our Login Page weill look like this:
+ ## So in the end our Login Page will look like this:
+<img width="1280" alt="Screenshot 2022-11-08 at 1 07 03 AM" src="https://user-images.githubusercontent.com/66726759/200393759-ed190fcc-c9f4-4f2b-9c88-0041962e70d8.png">
