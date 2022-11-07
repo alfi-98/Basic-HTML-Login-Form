@@ -16,11 +16,13 @@ This is a walkthrough of building a Login Form using HTML and CSS.
 - ## Login Page Heading 
 - At first we give a heading to our login page using ```<h1>``` tag. </br>
 ```<h1> Login page </h1>``` 
-- Next, to create a section in the html page we use the ```<div>``` tag which has a ```class``` attribute  with value ```"login"```.
+- Next, to create a section in the html page we use the ```<div>``` tag which has a ```class``` attribute  with value ```"login"```.</br>
 - Inside the div we include a ```<form></form>``` tag. </br>
-``` <div class="login">    
+```
+<div class="login">    
     <form>    
          
     </form>     
-</div>  ```
+</div>  
+```
 
