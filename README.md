@@ -25,4 +25,24 @@ This is a walkthrough of building a Login Form using HTML and CSS.
     </form>     
 </div>  
 ```
+- Then we use the ```<label>``` tag to label the input fields.
+- ```<input>``` tag helps us to create input fields for the username and password. </br>
+```
+<h1>Login Page</h1><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="button" name="log" id="log" value="Log In Here">          
+          
+    </form>     
+    ```
 
