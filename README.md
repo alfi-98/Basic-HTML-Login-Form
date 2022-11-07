@@ -40,9 +40,11 @@ This is a walkthrough of building a Login Form using HTML and CSS.
         </b>    
         </label>    
         <input type="Password" name="Pass" id="Pass" placeholder="Password">    
-        <br><br>    
-        <input type="button" name="log" id="log" value="Log In Here">          
+        <br><br>        
           
     </form>     
-    ```
+ ```
+ - To submit the form, we use the input field of ```button``` type. </br>
+ ```<input type="button" name="log" id="log" value="Log In Here">```
+  
 
