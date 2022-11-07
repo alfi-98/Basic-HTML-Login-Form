@@ -79,12 +79,57 @@ body
 The css code for the above elements:
 ```
 .login{  
-    width: 382px;  
+    width: 300px;  
     overflow: hidden;  
     margin: auto;  
-    margin: 20 0 0 450px;  
     padding: 80px;  
     background: #ffffff;  
     border-radius: 15px ;  
  }
 ```
+- To bring our ```<h1>``` tag in the center and styling our fonts, the code below is used: </br>
+```
+h2{  
+    text-align: center;  
+    color: #1c1e1e;  
+    padding: 20px;  
+}  
+label{  
+    color: #1c1e1d;  
+    font-size: 17px;  
+}  
+```
+- Finally, We have used the following ```css``` code to modify the ```id``` attribute with the values "userName", "password" and "submit":
+```
+#userName{  
+    width: 300px;  
+    height: 30px;  
+    padding-left: 8px; 
+    border: none;  
+    border-radius: 17px;  
+    border-color: #dfdfdf;
+    border-width: 1px; 
+    border-style: solid;
+    
+}  
+#password{  
+    width: 300px;  
+    height: 30px;  
+    padding-left: 8px; 
+    border: none;  
+    border-radius: 17px;  
+    border-color: #dfdfdf;
+    border-width: 1px; 
+    border-style: solid; 
+}  
+#submit{  
+    width: 310px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;   
+    color: #1c1e1d;  
+    background-color: rgba(245, 202, 143);
+  
+}  
+```
+ ## So in the end our Login Page weill look like this:
