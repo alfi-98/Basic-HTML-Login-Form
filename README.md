@@ -51,3 +51,40 @@ This is a walkthrough of building a Login Form using HTML and CSS.
 - The login page will look like this. 
 <img width="1316" alt="Screenshot 2022-11-07 at 4 18 18 PM" src="https://user-images.githubusercontent.com/66726759/200285867-fcba391f-6235-46db-bf0c-5dcc517b1a51.png">
 
+## 4. Using CSS to style the login page:
+- Create a new ```style.css``` file inside the project folder.
+- Now to link the html file with the CSS file, we need to add the below ```<link/>``` tag inside the heading tag of the index.html file.
+```
+ <head>  
+   <link rel="stylesheet" href="style.css"/>  
+</head>  
+```
+- The first style we will do using ```css``` is to define a background color and some other attributes by writing this below code inside the style.css file:
+```
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color: rgba(245, 242, 235);  
+    font-family: 'Arial';  
+}  
+```
+- The  ```<div>``` and ```<form>``` element inside ```body``` is specified with ```class``` and  ```id``` attribute with the value "login". These attributes helps the ```style.css``` file to style those specific elements in index.html file. 
+```
+ <div class="login">    
+    <form id="login">      
+    </form>     
+</div>    
+```
+The css code for the above elements:
+```
+.login{  
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: #ffffff;  
+    border-radius: 15px ;  
+ }
+```
